@@ -33,9 +33,9 @@ class cis::el6all {
   include cis::el6::1_5_3
   include cis::el6::1_5_4
   include cis::el6::1_5_5
-  include cis::el6::1_6_1
-  include cis::el6::1_6_2
-  include cis::el6::1_6_3
+#  include cis::el6::1_6_1
+#  include cis::el6::1_6_2
+#  include cis::el6::1_6_3
   include cis::el6::2_1_10
   include cis::el6::2_1_11
   include cis::el6::2_1_12
@@ -60,16 +60,16 @@ class cis::el6all {
   include cis::el6::3_3
   include cis::el6::3_5
   include cis::el6::3_6
-  include cis::el6::4_1_1
-  include cis::el6::4_1_2
-  include cis::el6::4_2_1
-  include cis::el6::4_2_2
-  include cis::el6::4_2_3
-  include cis::el6::4_2_4
-  include cis::el6::4_2_5
-  include cis::el6::4_2_6
-  include cis::el6::4_2_7
-  include cis::el6::4_2_8
+#  include cis::el6::4_1_1
+#  include cis::el6::4_1_2
+#  include cis::el6::4_2_1
+#  include cis::el6::4_2_2
+#  include cis::el6::4_2_3
+#  include cis::el6::4_2_4
+#  include cis::el6::4_2_5
+#  include cis::el6::4_2_6
+#  include cis::el6::4_2_7
+#  include cis::el6::4_2_8
   include cis::el6::4_5_3
   include cis::el6::4_5_5
   include cis::el6::4_7
