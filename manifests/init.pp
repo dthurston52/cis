@@ -5,5 +5,6 @@
 #
 
 class cis {
+include stdlib
 include cis::el6all
 }
