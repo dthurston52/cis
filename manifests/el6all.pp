@@ -33,7 +33,7 @@ class cis::el6all {
   include cis::el6::1_5_3
   include cis::el6::1_5_4
   include cis::el6::1_5_5
-#  include cis::el6::1_6_1
+  include cis::el6::1_6_1 
 #  include cis::el6::1_6_2
 #  include cis::el6::1_6_3
   include cis::el6::2_1_10
