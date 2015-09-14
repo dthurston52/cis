@@ -12,7 +12,7 @@ class cis::linuxcontrols::c0007 {
 #        owner  => root,
 #        group  => root,
 #        mode   => '0640',
-      }
+#      }
     }
     'Amazon': {
       package { [ 'libselinux', 'libselinux-utils', 'policycoreutils']:
@@ -25,7 +25,7 @@ class cis::linuxcontrols::c0007 {
 #        group   => root,
 #        mode    => '0640',
 #        require => Package['libselinux'],
-      }
+#      }
     }
     default: { fail("ERROR: unsupported OS = ${::operatingsystem}") }
   }
