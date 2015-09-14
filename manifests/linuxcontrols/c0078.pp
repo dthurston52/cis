@@ -10,16 +10,16 @@ class cis::linuxcontrols::c0078 {
     group  => root,
     mode   => '0644',
   }
-  file {'/etc/issue':
-    source =>   'puppet:///modules/motd/etc_issue',
-    owner  => root,
-    group  => root,
-    mode   => '0644',
-  }
-  file {'/etc/motd':
-    source =>   'puppet:///modules/motd/etc_issue',
-    owner  => root,
-    group  => root,
-    mode   => '0644',
-  }
+#  file {'/etc/issue':
+#    source =>   'puppet:///modules/motd/etc_issue',
+#    owner  => root,
+#    group  => root,
+#    mode   => '0644',
+#  }
+#  file {'/etc/motd':
+#    source =>   'puppet:///modules/motd/etc_issue',
+#    owner  => root,
+#    group  => root,
+#    mode   => '0644',
+#  }
 }
