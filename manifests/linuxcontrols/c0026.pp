@@ -5,6 +5,6 @@
 
 class cis::linuxcontrols::c0026 {
   package {'xinetd':
-    ensure => absent,
+    ensure => present,
   }
 }
