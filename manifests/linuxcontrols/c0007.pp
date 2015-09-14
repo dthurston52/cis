@@ -19,12 +19,12 @@ class cis::linuxcontrols::c0007 {
         ensure => installed,
       }
 
-      file {'/etc/selinux/config':
-        source  => 'puppet:///modules/cis/awslinux/etc/selinux/config',
-        owner   => root,
-        group   => root,
-        mode    => '0640',
-        require => Package['libselinux'],
+#      file {'/etc/selinux/config':
+#        source  => 'puppet:///modules/cis/awslinux/etc/selinux/config',
+#        owner   => root,
+#        group   => root,
+#        mode    => '0640',
+#        require => Package['libselinux'],
       }
     }
     default: { fail("ERROR: unsupported OS = ${::operatingsystem}") }
