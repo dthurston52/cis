@@ -5,19 +5,19 @@
 
 class cis::linuxcontrols::c0078 {
   file {'/etc/issue.net':
-    source => 'puppet:///modules/cis/el6/etc/issue.net',
+    source =>  'puppet:///modules/motd/etc_issue', 
     owner  => root,
     group  => root,
     mode   => '0644',
   }
   file {'/etc/issue':
-    source => 'puppet:///modules/cis/el6/etc/issue.net',
+    source =>   'puppet:///modules/motd/etc_issue',
     owner  => root,
     group  => root,
     mode   => '0644',
   }
   file {'/etc/motd':
-    source => 'puppet:///modules/cis/el6/etc/issue.net',
+    source =>   'puppet:///modules/motd/etc_issue',
     owner  => root,
     group  => root,
     mode   => '0644',
